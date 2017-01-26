@@ -4,8 +4,8 @@ matrix:
     - jdk: oraclejdk8
 
 script: >-
-  ./tests/runtests.sh &&
-  gradle assemble
+  ./test/runtests.sh &&
+  gradle check
 
 addons:
   apt:
