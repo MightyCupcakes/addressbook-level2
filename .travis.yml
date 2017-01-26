@@ -3,7 +3,7 @@ matrix:
   include:
     - jdk: oraclejdk8
 
-script >-
+script: >-
   ./tests/runtests.sh &&
   gradle assemble
 
