@@ -4,8 +4,8 @@ matrix:
     - jdk: oraclejdk8
 
 script: >-
-  ./test/travis/runtests.sh &&
-  gradle check
+  gradle check &&
+  ./test/travis/runtests.sh
 
 addons:
   apt:
